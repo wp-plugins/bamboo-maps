@@ -5,7 +5,7 @@ Plugin Name: Bamboo Maps
 Plugin URI:  http://www.bamboosolutions.co.uk/wordpress/bamboo-maps
 Author:      Bamboo Solutions
 Author URI:  http://www.bamboosolutions.co.uk
-Version:     1.1
+Version:     1.2
 Description: Bamboo Maps is the simplest way of embedding a fully functional Google Map into your content.
 */
 /******************************************************************/
@@ -30,7 +30,7 @@ Description: Bamboo Maps is the simplest way of embedding a fully functional Goo
 		$path = plugins_url( '', __FILE__ );
 
 		wp_enqueue_script( 'google-maps', 'http://maps.google.com/maps/api/js?sensor=false' );
-		wp_enqueue_script( 'bamboo-maps', $path.'/bamboo-maps.js' );
+		wp_enqueue_script( 'bamboo-maps', $path.'/bamboo-maps.js', 'jquery', null, true );
 
      	$html = "<div class=\"bamboo_map\" id=\"bamboo_map_$counter\" style=\"width:$width; height:$height;\">";
 		$html.= "<a href=\"" . strip_tags($content) ."\"></a>";
