@@ -3,8 +3,8 @@ Contributors: Bamboo Solutions
 Donate link: http://www.bamboosolutions.co.uk
 Tags: columns, layout, shortcodes
 Requires at least: 3.0.1
-Tested up to: 3.9.2
-Stable tag: 1.2
+Tested up to: 4.2.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,3 +35,8 @@ width: Sets the width of the map using any valid CSS width, e.g. ‘400px’ or 
 height: Sets the heightof the map using any valid CSS width, e.g. ‘400px’ or ’50%’.
 
 
+== Changelog ==
+
+= 1.3 =
+* Updated CSS delivery to help improve Google PageSpeed scores
+* Minor code refactoring

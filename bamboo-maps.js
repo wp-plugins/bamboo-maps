@@ -1,15 +1,5 @@
 /******************************************************************/
 
-	jQuery(document).ready(function(){
-
-		jQuery('.bamboo_map').each(function(){
-			bambooInitMap(jQuery(this));
-		});
-
-	});
-
-/******************************************************************/
-
 	function bambooInitMap(el) {
 
 		var id = el.attr('id');
@@ -37,5 +27,15 @@
 		new google.maps.Map(div, options);
 
 	}
+
+/******************************************************************/
+
+	jQuery(document).ready(function(){
+
+		jQuery('.bamboo_map').each(function(){
+			bambooInitMap(jQuery(this));
+		});
+
+	});
 
 /******************************************************************/
