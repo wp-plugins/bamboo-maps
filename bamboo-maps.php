@@ -5,7 +5,7 @@ Plugin Name: Bamboo Maps
 Plugin URI:  http://www.bamboosolutions.co.uk/wordpress/bamboo-maps
 Author:      Bamboo Solutions
 Author URI:  http://www.bamboosolutions.co.uk
-Version:     1.2
+Version:     1.3
 Description: Bamboo Maps is the simplest way of embedding a fully functional Google Map into your content.
 */
 /**************************************************************************************************/
