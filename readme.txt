@@ -1,5 +1,5 @@
 === Bamboo Maps ===
-Contributors: Bamboo Solutions
+Contributors: bamboosolutions
 Donate link: http://www.bamboosolutions.co.uk
 Tags: columns, layout, shortcodes
 Requires at least: 3.0.1
